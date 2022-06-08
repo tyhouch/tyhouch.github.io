@@ -1,8 +1,10 @@
 :root {
+  --dl-color-dust-meh: #5f9c88ff;
   --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;
   --dl-color-gray-800: #cbcbcbff;
   --dl-color-gray-900: #D9D9D9;
+  --dl-color-dust-dark: #364b44ff;
   --dl-color-danger-300: #A22020;
   --dl-color-danger-500: #BF2626;
   --dl-color-danger-700: #E14747;
@@ -27,6 +29,9 @@
   --dl-space-space-fourunits: 32px;
   --dl-space-space-doubleunit: 16px;
   --dl-space-space-tripleunit: 24px;
+  --dl-color-bioinformatics-db: #113768ff;
+  --dl-color-bioinformatics-lb: #068dbeff;
+  --dl-color-bioinformatics-midnight: #113768ff;
 }
 .teleport-show {
   display: flex !important;
@@ -74,7 +79,7 @@
 }
 .section-Text {
   font-size: 18px;
-  font-family: Playfair Display;
+  font-family: Overpass;
   font-weight: 600;
   line-height: 1.55;
   letter-spacing: 2;
@@ -102,10 +107,10 @@
 .card-Heading {
   font-size: 24px;
   font-style: normal;
-  font-family: Overpass;
+  font-family: B612 Mono;
   font-weight: 700;
   line-height: 1.55;
-  text-transform: none;
+  text-transform: capitalize;
   text-decoration: none;
 }
 .anchor {
@@ -117,7 +122,7 @@
   text-decoration: none;
 }
 .navbar-Link {
-  font-size: 24px;
+  font-size: 20px;
   font-family: Overpass;
   font-weight: 700;
   line-height: 1.55;
